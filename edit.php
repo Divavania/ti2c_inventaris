@@ -3,47 +3,45 @@
 <head>
 	<title>Data barang</title>
 	<style>
-    /* Basic styles */
-    body {
-      font-family: sans-serif;
-      margin: 2rem; /* Add some margin around the body */
-    }
+        body {
+            font-family: sans-serif;
+            margin: 2rem;
+        }
 
-    h2 {
-      text-align: center;
-    }
+        h2 {
+            text-align: center;
+        }
 
-    /* Form styling */
-    table {
-      border-collapse: collapse; /* Remove gaps between table cells */
-      width: 500px; /* Adjust the width as needed */; /* Adjust table width as needed */
-      margin: 0 auto;
-      margin-bottom: 1rem; /* Add space below the table */
-    }
+        table {
+            border-collapse: collapse;
+            width: 500px;
+            margin: 0 auto;
+            margin-bottom: 1rem;
+        }
 
-    th, td {
-      padding: 0.5rem 1rem; /* Add padding to table cells */
-      border: 1px solid #ccc; /* Add borders */
-    }
+        th, td {
+            padding: 0.5rem 1rem;
+            border: 1px solid #ccc;
+        }
 
-    th {
-      text-align: left; /* Align table headers to the left */
-      font-weight: bold; /* Make table headers bold */
-    }
+        th {
+            text-align: left;
+            font-weight: bold;
+        }
 
-    input[type="text"],
-    input[type="submit"] {
-      padding: 0.5rem; /* Add padding to input fields and submit button */
-      border: 1px solid #ccc; /* Add borders */
-      border-radius: 3px; /* Add rounded corners */
-    }
+        input[type="text"],
+        input[type="submit"] {
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
 
-    input[type="submit"] {
-      cursor: pointer; /* Make the submit button look clickable */
-      background-color: #4CAF50; /* Green background */
-      color: white; /* White text */
-    }
-  </style>
+        input[type="submit"] {
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
 </head>
 <body>
  
@@ -77,7 +75,7 @@
                 <td></td>
 				<td><input type="submit" value="simpan"></td>
 		    </tr>
-    
+        </table>
     </form>
 </body>
 </html>
