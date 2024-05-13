@@ -3,44 +3,60 @@
 <head>
 	<title>Data barang</title>
 	<style>
-        body {
-            font-family: sans-serif;
-            margin: 2rem;
-        }
+    body {
+        font-family: 'Comic Sans MS', cursive, sans-serif;
+        background-color: #f3f6f9;
+        padding: 20px;
+    }
 
-        h2 {
-            text-align: center;
-        }
+    h2 {
+        color: #473e3b;
+        font-size: 36px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
 
-        table {
-            border-collapse: collapse;
-            width: 500px;
-            margin: 0 auto;
-            margin-bottom: 1rem;
-        }
+    form {
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        max-width: 500px;
+        margin: 0 auto;
+    }
 
-        th, td {
-            padding: 0.5rem 1rem;
-            border: 1px solid #ccc;
-        }
+    form div {
+        margin-bottom: 20px;
+    }
 
-        th {
-            text-align: left;
-            font-weight: bold;
-        }
+    label {
+        display: block;
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
 
-        input[type="text"],
-        input[type="submit"] {
-            padding: 0.5rem;
-            border: 1px solid #ccc;
-            border-radius: 3px;
-        }
+    input[type="text"] {
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
 
-        input[type="submit"] {
-            cursor: pointer;
-            background-color: #4CAF50;
-            color: white;
-        }
+    input[type="submit"] {
+        padding: 10px 20px;
+        background-color: #473e3b;
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #ffc640;
+        color: #473e3b;
+    }
     </style>
 </head>
 <body>

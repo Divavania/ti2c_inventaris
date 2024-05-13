@@ -9,56 +9,57 @@ include "koneksi.php";
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Data barang</title>
 	<style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
+    body {
+        font-family: 'Comic Sans MS', cursive, sans-serif;
+        background-color: #f3f6f9;
+        padding: 20px;
+    }
 
-        h1, h4 {
-            text-align: center;
-            margin-bottom: 20px;
-        }
+    h1 {
+        color: #473e3b;
+        font-size: 36px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
 
-        table {
-  			width: auto;
-  			max-width: 100%;
-  			margin: 0 auto;
-		}
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+    }
 
-        th, td {
-            padding: 10px;
-            border: 1px solid #ddd;
-        }
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
 
-        th {
-            text-align: left;
-            background-color: #f2f2f2;
-        }
-		
+    th {
+        background-color: #473e3b;
+        color: white;
+    }
 
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
 
-        a:hover {
-            color: #0056b3;
-        }
+    h4 {
+        color: #473e3b;
+        font-size: 24px;
+        margin-top: 30px;
+        text-align: center;
+    }
 
-        .aksi a {
-            display: inline-block;
-            padding: 5px 10px;
-            margin-right: 5px;
-            border: 1px solid #007bff;
-            color: #007bff;
-            text-decoration: none;
-            transition: background-color 0.3s;
-        }
+    a {
+        color: #473e3b;
+        text-decoration: none;
+        margin-right: 10px;
+    }
 
-        .aksi a:hover {
-            background-color: #007bff;
-            color: #fff;
-        }
+    a:hover {
+        color: #ffc640;
+    }
     </style>
 </head>
 <body>

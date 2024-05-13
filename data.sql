@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 10 Bulan Mei 2024 pada 09.52
+-- Waktu pembuatan: 13 Bulan Mei 2024 pada 14.04
 -- Versi server: 10.4.32-MariaDB
 -- Versi PHP: 8.2.12
 
@@ -39,7 +39,9 @@ CREATE TABLE `printer` (
 --
 
 INSERT INTO `printer` (`nomor`, `nama_merek`, `warna`, `jumlah`) VALUES
-(1, 'HP', 'Hitam', 2);
+(1, 'CANON', 'Hitam', 20),
+(2, 'HP C33XP', 'Biru', 100),
+(3, 'PIXMA MP237', 'Hitam', 200);
 
 --
 -- Indexes for dumped tables
@@ -59,7 +61,7 @@ ALTER TABLE `printer`
 -- AUTO_INCREMENT untuk tabel `printer`
 --
 ALTER TABLE `printer`
-  MODIFY `nomor` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `nomor` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

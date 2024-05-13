@@ -9,77 +9,65 @@ include "koneksi.php";
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tambah Data Barang</title>
     <style>
-        * {
-            margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        }
+    body {
+        font-family: 'Comic Sans MS', cursive, sans-serif;
+        background-color: #f3f6f9;
+        padding: 20px;
+    }
 
-        body {
-            font-family: sans-serif;
-        }
+    h1 {
+        color: #473e3b;
+        font-size: 36px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
 
-        h1 {
-            text-align: center;
-        }
+    form {
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        max-width: 500px;
+        margin: 0 auto;
+    }
 
-        form {
-            display: flex;
-            flex-direction: column;
-            width: fit-content;
-            margin: 2rem auto;
-            padding: 1rem;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            margin-top: 1rem;
-            width: 400px;
-}
+    form div {
+        margin-bottom: 20px;
+    }
 
-        label {
-            display: block;
-            margin-bottom: 5px;
-            font-weight: bold;
-        }
+    label {
+        display: block;
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
 
-        input[type=text] {
-            width: 100%;
-            padding: 0.5rem;
-            border: 1px solid #ccc;
-            border-radius: 3px;
-        }
+    input[type="text"] {
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
 
-        button[type="submit"],
-        button[type="reset"],
-        button a {
-            padding: 0.5rem 1rem;
-            border: 1px solid #ddd;
-            border-radius: 3px;
-            cursor: pointer;
-            margin-top: 1rem;
-        }
+    button {
+        padding: 10px 20px;
+        background-color: #473e3b;
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-right: 10px;
+    }
 
-        button[type="submit"] {
-            background-color: #4CAF50;
-            color: white;
-        }
+    button:hover {
+        background-color: #ffc640;
+        color: #473e3b;
+    }
 
-        button[type="reset"] {
-            background-color: #ccc;
-            color: black;
-        }
-
-        button a {
-            background-color: #f1f1f1;
-            color: black;
-            text-decoration: none;
-        }
-
-        @media (max-width: 768px) {
-            form {
-                width: 80%;
-            }
-        }
-
+    a {
+        background-color: #ffc640;
+        color: #473e3b;
+    }
     </style>
 </head>
 <body>

@@ -5,60 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inventaris</title>
     <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            background-color: #e0f2f1;
-            color: #333;
-            padding: 20px;
-            max-width: 800px;
-            margin: 0 auto;
-        }
+    body {
+        font-family: 'Comic Sans MS', cursive, sans-serif;
+        background-color: #f3f6f9;
+        padding: 20px;
+    }
 
-        header {
-            background-color: #fff;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            text-align: center;
-        }
+    header {
+        background-color: #ffc640;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        max-width: 500px;
+        margin: 0 auto;
+    }
 
-        h1 {
-            font-size: 2.5em;
-            color: #3498db;
-        }
+    h1 {
+        color: #473e3b;
+        font-size: 36px;
+        margin: 0;
+    }
 
-        nav {
-            background-color: #fff;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            padding: 15px;
-            margin-bottom: 30px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+    h2 {
+        color: #473e3b;
+        font-size: 24px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
 
-        ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            text-align: center;
-        }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
 
-        li {
-            display: inline-block;
-            margin-right: 20px;
-        }
+    nav ul li {
+        margin-bottom: 10px;
+    }
 
-        a {
-            color: #3498db;
-            text-decoration: none;
-            font-weight: bold;
-            transition: color 0.2s ease-in-out;
-        }
+    nav ul li a {
+        display: block;
+        padding: 10px 20px;
+        background-color: #473e3b;
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 10px;
+        max-width: 500px;
+        margin: 0 auto;
+    }
 
-        a:hover {
-            color: #2980b9;
-        }
-
+    nav ul li a:hover {
+        background-color: #ffc640;
+        color: #473e3b;
+    }
     </style>
 </head>
 <body>
